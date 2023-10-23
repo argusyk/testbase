@@ -1,0 +1,10 @@
+--------------------------------------------------------
+--  Constraints for Table SGROUP
+--------------------------------------------------------
+
+  ALTER TABLE "ARGUS"."SGROUP" MODIFY ("GROUP_ID" NOT NULL ENABLE);
+  ALTER TABLE "ARGUS"."SGROUP" MODIFY ("GROUP_NAME" NOT NULL ENABLE);
+  ALTER TABLE "ARGUS"."SGROUP" ADD CONSTRAINT "SGROUP_PK" PRIMARY KEY ("GROUP_ID")
+  USING INDEX  ENABLE;
+  ALTER TABLE "ARGUS"."SGROUP" ADD CONSTRAINT "SGROUP_CON_GN_U" UNIQUE ("GROUP_NAME")
+  USING INDEX  ENABLE;

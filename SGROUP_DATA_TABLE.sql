@@ -1,0 +1,22 @@
+REM INSERTING into ARGUS.SGROUP
+SET DEFINE OFF;
+Insert into ARGUS.SGROUP (GROUP_ID,GROUP_NAME) values (1,' ≤-20');
+Insert into ARGUS.SGROUP (GROUP_ID,GROUP_NAME) values (2,' ≤-21');
+Insert into ARGUS.SGROUP (GROUP_ID,GROUP_NAME) values (3,' ≤¡-20');
+Insert into ARGUS.SGROUP (GROUP_ID,GROUP_NAME) values (4,' ≤¡-21');
+Insert into ARGUS.SGROUP (GROUP_ID,GROUP_NAME) values (5,' ≤-22');
+Insert into ARGUS.SGROUP (GROUP_ID,GROUP_NAME) values (6,' ≤¡-22');
+Insert into ARGUS.SGROUP (GROUP_ID,GROUP_NAME) values (7,' ≤-23');
+Insert into ARGUS.SGROUP (GROUP_ID,GROUP_NAME) values (8,' ≤¡-23');
+Insert into ARGUS.SGROUP (GROUP_ID,GROUP_NAME) values (9,' ≤-19');
+Insert into ARGUS.SGROUP (GROUP_ID,GROUP_NAME) values (10,' ≤¡-19');
+Insert into ARGUS.SGROUP (GROUP_ID,GROUP_NAME) values (11,' Õ-19');
+Insert into ARGUS.SGROUP (GROUP_ID,GROUP_NAME) values (12,' Õ-20');
+Insert into ARGUS.SGROUP (GROUP_ID,GROUP_NAME) values (13,' Õ-21');
+Insert into ARGUS.SGROUP (GROUP_ID,GROUP_NAME) values (14,' Õ-22');
+Insert into ARGUS.SGROUP (GROUP_ID,GROUP_NAME) values (15,' Õ-23');
+Insert into ARGUS.SGROUP (GROUP_ID,GROUP_NAME) values (16,'≤œ«-19');
+Insert into ARGUS.SGROUP (GROUP_ID,GROUP_NAME) values (17,'≤œ«-20');
+Insert into ARGUS.SGROUP (GROUP_ID,GROUP_NAME) values (18,'≤œ«-21');
+Insert into ARGUS.SGROUP (GROUP_ID,GROUP_NAME) values (19,'≤œ«-22');
+Insert into ARGUS.SGROUP (GROUP_ID,GROUP_NAME) values (20,'≤œ«-23');

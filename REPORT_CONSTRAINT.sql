@@ -1,0 +1,10 @@
+--------------------------------------------------------
+--  Constraints for Table REPORT
+--------------------------------------------------------
+
+  ALTER TABLE "ARGUS"."REPORT" MODIFY ("REPORT_ID" NOT NULL ENABLE);
+  ALTER TABLE "ARGUS"."REPORT" ADD CONSTRAINT "REPORT_PK" PRIMARY KEY ("REPORT_ID")
+  USING INDEX  ENABLE;
+  ALTER TABLE "ARGUS"."REPORT" ADD CONSTRAINT "REPORT_CON_RN_U" UNIQUE ("REPORT_NAME")
+  USING INDEX  ENABLE;
+  ALTER TABLE "ARGUS"."REPORT" MODIFY ("REPORT_NAME" NOT NULL ENABLE);
